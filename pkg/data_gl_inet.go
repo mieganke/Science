@@ -2,6 +2,45 @@
 package devices
 
 var DeviceTypesMapgl_inet = map[string]*DeviceData{
+    "GL-AR150": {
+        Manufacturer: "GL-iNet",
+        Model: "GL-AR150",
+        Slug: "gl-inet-gl-ar150",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.1,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "usb-micro-b", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
     "GL-AXT1800": {
         Manufacturer: "GL-iNet",
         Model: "GL-AXT1800",
@@ -40,6 +79,45 @@ var DeviceTypesMapgl_inet = map[string]*DeviceData{
             { Name: "Port 2", Label: "LAN2", Type: "1000base-t", MgmtOnly: false },
             { Name: "Port 3", Label: "WAN", Type: "1000base-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "GL-BE3600": {
+        Manufacturer: "GL-iNet",
+        Model: "GL-BE3600",
+        Slug: "gl-inet-gl-be3600",
+        UHeight: 0,
+        PartNumber: "GL-BE3600",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 295,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "External Power Adapter", Label: "", Type: "usb-c", MaximumDraw: 30, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "LAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "WAN", Type: "2.5gbase-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11be", MgmtOnly: false },
         },
     },
 }

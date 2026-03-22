@@ -113,6 +113,45 @@ var DeviceTypesMaphp = map[string]*DeviceData{
             { Name: "ethernet-1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "ProDesk 400 G4 SFF": {
+        Manufacturer: "HP",
+        Model: "ProDesk 400 G4 SFF",
+        Slug: "hpe-prodesk-400-g4-sff",
+        UHeight: 6,
+        PartNumber: "3SW63UC",
+        IsFullDepth: false,
+        Airflow: "",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 4.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 180, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "pcie-0", Label: "", Position: "0" },
+            { Name: "pcie-1", Label: "", Position: "1" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
     "ProDesk 400 G6 MT": {
         Manufacturer: "HP",
         Model: "ProDesk 400 G6 MT",
@@ -133,6 +172,43 @@ var DeviceTypesMaphp = map[string]*DeviceData{
         },
         PowerPorts: []PowerPort{
             { Name: "PSU", Label: "", Type: "iec-60320-c14", MaximumDraw: 180, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ETH-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "ProMini 400 G9": {
+        Manufacturer: "HP",
+        Model: "ProMini 400 G9",
+        Slug: "hp-promini-400-g9",
+        UHeight: 0,
+        PartNumber: "884P1EA",
+        IsFullDepth: false,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.42,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PSU", Label: "", Type: "dc-terminal", MaximumDraw: 90, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -185,6 +261,43 @@ var DeviceTypesMaphp = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "ethernet-1/1", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "t630 Thin Client": {
+        Manufacturer: "HP",
+        Model: "t630 Thin Client",
+        Slug: "hp-t630-thin-client",
+        UHeight: 0,
+        PartNumber: "3KX20UT",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.52,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-in", Label: "", Type: "dc-terminal", MaximumDraw: 65, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "NIC1", Label: "Ethernet", Type: "1000base-t", MgmtOnly: false },
         },
     },
 }

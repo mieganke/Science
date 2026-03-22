@@ -2,6 +2,50 @@
 package devices
 
 var DeviceTypesMaptp_link = map[string]*DeviceData{
+    "Archer AX1800": {
+        Manufacturer: "TP-Link",
+        Model: "Archer AX1800",
+        Slug: "tp-link-archer-ax1800",
+        UHeight: 0,
+        PartNumber: "archer-ax1800",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "parent",
+        Weight: 900,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "Power", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN", Label: "WAN", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN1", Label: "LAN1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN4", Label: "LAN4", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+            { Name: "usb", Label: "", Type: "lte", MgmtOnly: false },
+        },
+    },
     "Archer C7 AC1750 v4": {
         Manufacturer: "TP-Link",
         Model: "Archer C7 AC1750 v4",
@@ -43,6 +87,242 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "lan4", Label: "", Type: "1000base-t", MgmtOnly: false },
             { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
             { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "Archer C7 v5": {
+        Manufacturer: "TP-Link",
+        Model: "Archer C7 v5",
+        Slug: "tp-link-archer-c7-v5",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PS1", Label: "", Type: "dc-terminal", MaximumDraw: 7, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "wan", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "lan4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wlan0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "wlan1", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+        },
+    },
+    "Archer MR505": {
+        Manufacturer: "TP-Link",
+        Model: "Archer MR505",
+        Slug: "tp-link-archer-mr505",
+        UHeight: 0,
+        PartNumber: "archer-mr505",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 400,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "Power", Type: "dc-terminal", MaximumDraw: 12, AllocatedDraw: 12 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "WAN/LAN1", Label: "WAN/LAN1", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN2", Label: "LAN2", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN3", Label: "LAN3", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless 2.4 GHz", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+            { Name: "Wireless 5 GHz", Label: "", Type: "ieee802.11ax", MgmtOnly: false },
+        },
+    },
+    "CPE210 v1.1": {
+        Manufacturer: "TP-Link",
+        Model: "CPE210 v1.1",
+        Slug: "tp-link-cpe210-v1-1",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-fx", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "100base-fx", MgmtOnly: false },
+            { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "CPE210 v3.0": {
+        Manufacturer: "TP-Link",
+        Model: "CPE210 v3.0",
+        Slug: "tp-link-cpe210-v3-0",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-fx", MgmtOnly: false },
+            { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "CPE210 v3.20": {
+        Manufacturer: "TP-Link",
+        Model: "CPE210 v3.20",
+        Slug: "tp-link-cpe210-v3-20",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.3,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-tx", MgmtOnly: false },
+            { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "EAP245": {
+        Manufacturer: "TP-Link",
+        Model: "EAP245",
+        Slug: "tp-link-eap245",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.38,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "12VDC", Label: "", Type: "dc-terminal", MaximumDraw: 13, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "LAN 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Wireless AC", Label: "", Type: "ieee802.11ac", MgmtOnly: false },
+            { Name: "Wireless N", Label: "", Type: "ieee802.11n", MgmtOnly: false },
         },
     },
     "EAP683-LR": {
@@ -1329,6 +1609,62 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Port 16", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SG1218MPE": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SG1218MPE",
+        Slug: "tp-link-tl-sg1218mpe",
+        UHeight: 1,
+        PartNumber: "TL-SG1218MPE",
+        IsFullDepth: false,
+        Airflow: "side-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.91,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power", Label: "", Type: "iec-60320-c14", MaximumDraw: 250, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "GE-1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-5", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-6", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-7", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-8", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-9", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-10", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-11", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-12", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-13", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-14", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-15", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-16", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-17", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-18", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "GE-19", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+            { Name: "GE-20", Label: "", Type: "1000base-x-sfp", MgmtOnly: false },
+        },
+    },
     "TL-SG2210MP": {
         Manufacturer: "TP-Link",
         Model: "TL-SG2210MP",
@@ -1608,11 +1944,11 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "passive",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
-        Weight: 0,
+        Weight: 1.93,
         WeightUnit: "",
         IsPowered: false,
         ConsolePorts: []ConsolePort{
@@ -1996,6 +2332,52 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "Port 5", Label: "", Type: "1000base-t", MgmtOnly: false },
         },
     },
+    "TL-SX3008F": {
+        Manufacturer: "TP-Link",
+        Model: "TL-SX3008F",
+        Slug: "tp-link-tl-sx3008f",
+        UHeight: 1,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 1.65,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial Console", Type: "rj-45", Label: "Console(RJ45)", Poe: false },
+            { Name: "USB Serial Console", Type: "usb-micro-b", Label: "Console(USB)", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "PWR1", Label: "", Type: "iec-60320-c14", MaximumDraw: 16, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "ten-gigabitEthernet 1/0/1", Label: "1", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/2", Label: "2", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/3", Label: "3", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/4", Label: "4", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/5", Label: "5", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/6", Label: "6", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/7", Label: "7", Type: "10gbase-x-sfpp", MgmtOnly: false },
+            { Name: "ten-gigabitEthernet 1/0/8", Label: "8", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
     "TL-SX3016F": {
         Manufacturer: "TP-Link",
         Model: "TL-SX3016F",
@@ -2003,7 +2385,7 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         UHeight: 1,
         PartNumber: "",
         IsFullDepth: false,
-        Airflow: "",
+        Airflow: "rear-to-side",
         FrontImage: false,
         RearImage: false,
         SubdeviceRole: "",
@@ -2017,8 +2399,8 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
         ConsoleServerPorts: []ConsoleServerPort{
         },
         PowerPorts: []PowerPort{
-            { Name: "PWR1", Label: "PWR1", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
-            { Name: "PWR2", Label: "PWR2", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "PWR1", Label: "PWR1", Type: "iec-60320-c14", MaximumDraw: 33, AllocatedDraw: 0 },
+            { Name: "PWR2", Label: "PWR2", Type: "iec-60320-c14", MaximumDraw: 33, AllocatedDraw: 0 },
         },
         PowerOutlets: []PowerOutlet{
         },
@@ -2049,6 +2431,298 @@ var DeviceTypesMaptp_link = map[string]*DeviceData{
             { Name: "ten-gigabitEthernet 1/0/14", Label: "14", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "ten-gigabitEthernet 1/0/15", Label: "15", Type: "10gbase-x-sfpp", MgmtOnly: false },
             { Name: "ten-gigabitEthernet 1/0/16", Label: "16", Type: "10gbase-x-sfpp", MgmtOnly: false },
+        },
+    },
+    "TL-WDR3600 v1": {
+        Manufacturer: "TP-Link",
+        Model: "TL-WDR3600 v1",
+        Slug: "tp-link-tl-wdr3600-v1",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.44,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Port 1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "Port 4", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "TL-WDR4300 v1": {
+        Manufacturer: "TP-Link",
+        Model: "TL-WDR4300 v1",
+        Slug: "tp-link-tl-wdr4300-v1",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.95,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+        },
+    },
+    "TL-WR1043N/ND v2": {
+        Manufacturer: "TP-Link",
+        Model: "TL-WR1043N/ND v2",
+        Slug: "tp-link-tl-wr1043nnd-v2",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "1000base-t", MgmtOnly: false },
+            { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "TL-WR740N/ND v4": {
+        Manufacturer: "TP-Link",
+        Model: "TL-WR740N/ND v4",
+        Slug: "tp-link-tl-wr740nnd-v4",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "TL-WR841N/ND v11": {
+        Manufacturer: "TP-Link",
+        Model: "TL-WR841N/ND v11",
+        Slug: "tp-link-tl-wr841nnd-v11",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.7,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "TL-WR842N/ND v2": {
+        Manufacturer: "TP-Link",
+        Model: "TL-WR842N/ND v2",
+        Slug: "tp-link-tl-wr842nnd-v2",
+        UHeight: 0,
+        PartNumber: "",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-In", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "eth0", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "eth3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "wifi0", Label: "", Type: "ieee802.11n", MgmtOnly: false },
+        },
+    },
+    "TL-WR940N v6": {
+        Manufacturer: "TP-Link",
+        Model: "TL-WR940N v6",
+        Slug: "tp-link-tl-wr940n-v6",
+        UHeight: 0,
+        PartNumber: "TL-WR940N(EU)_v6",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.73,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "DC-IN", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "LAN1", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN2", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN3", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "LAN4", Label: "", Type: "100base-tx", MgmtOnly: false },
+            { Name: "WAN", Label: "", Type: "100base-tx", MgmtOnly: false },
         },
     },
 }
